@@ -1,0 +1,112 @@
+header {
+  background-color: #2b1a0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+header img {
+  height: 100px;
+}
+
+.link_header {
+  position: sticky;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2b1a0d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link_header a {
+  color: white;
+}
+
+.link_header li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #e08105;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #665a45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(253, 244, 230);
+}
+
+section {
+  padding-bottom: 85px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+p {
+  display: flex;
+  font-size: 130%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_nosotros {
+  height: 400px;
+}
+
+.arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.7;
+  z-index: 100;
+  font-size: 30px;
+}
+
+.arriba a {
+  color: black;
+}
+
+.arriba:hover {
+  opacity: 1;
+}
+
+#Localidad iframe {
+  padding-bottom: 20px;
+  width: 80%;
+}
+
+.redes img {
+  height: 35px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.maps {
+  width: auto;
+}
